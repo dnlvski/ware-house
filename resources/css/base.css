@@ -57,16 +57,22 @@ select {
   background-color: #FF8612;
   text-align: center;
   color: hsl(0, 0%, 13%);
-  transition: .25s;
   font-size: 17px;
   font-weight: lighter;
+
 }
 
 .button:hover {
-
-  background-color: Black - hsla(0, 0%, 13%, 1);
-  color: hsla(0, 100%, 100%, 1);
+  cursor: pointer;
+  color: hsl(0, 0%, 13%);
+  background-color: #d76411;
 }
+
+.button:active {
+  color: white;
+  transition: .3s;
+}
+
 
 /* Reusable Component - Image Container */
 
@@ -78,6 +84,20 @@ select {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+
+.product-list .image-container img {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+
+.product-list .image-container img:hover{
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 /* Reusable Component - Product List */

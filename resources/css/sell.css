@@ -23,11 +23,6 @@ form {
     margin-top: 40px;
 }
 
-input {
-  min-width: 100%;
-  box-sizing: border-box;
-}
-
 select {
   background-color: hsla(0, 0%, 100%, 1);
   font-size: inherit;
@@ -52,6 +47,10 @@ label {
 #price {
   grid-area: price;
     margin-right: 10px;
+}
+select {
+    background-color: rgb(227, 227, 227);
+    border: none;
 }
 
 #quantity {

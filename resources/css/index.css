@@ -45,8 +45,6 @@
   letter-spacing: .5px;
 }
 
-
-
 @media only screen and (max-width: 1120px) {
   .hero {
     width: 75%;
