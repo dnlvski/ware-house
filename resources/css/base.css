@@ -65,12 +65,13 @@ select {
 .button:hover {
   cursor: pointer;
   color: hsl(0, 0%, 13%);
-  background-color: #d76411;
+
 }
 
 .button:active {
   color: white;
-  transition: .3s;
+  background-color: #eb7612;
+  transition: .2s;
 }
 
 
